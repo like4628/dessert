@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: PingFang TC;
+}
+
+.marginAuto {
+  margin: 0 auto;
+}
+
+.container {
+  margin-right: 42px;
+  margin-left: 42px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 940px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navBar .responsive {
+  display: none;
+}
+
+.navBar .logo {
+  width: 219.49px;
+  height: 40px;
+}
+
+.navBar .right,
+.navBar .menu {
+  display: flex;
+}
+
+.navBar .menu {
+  margin-right: 30px;
+  color: #3f5d45;
+  font-weight: 600;
+  list-style: none;
+}
+
+.navBar .menu li {
+  margin-right: 60px;
+}
+
+.navBar .shopcart {
+  width: 24px;
+}
+
+.jumbotron {
+  width: 940px;
+  height: 496px;
+  background-image: url("https://www.oetker.co.uk/Recipe/Recipes/oetker.co.uk/uk-en/baking/image-thumb__73324__RecipeDetailsLightBox/chocolate-rainbow-layer-cake.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.list .left_choose {
+  max-width: 940px;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 24px;
+}
+
+.list .left_choose .menu {
+  list-style: none;
+  font-size: 0;
+}
+
+.list .left_choose .menu li {
+  border: 1px solid #eaf0ed;
+  font-size: 24px;
+  padding: 16px 64px;
+  color: #3f5d45;
+  letter-spacing: -1px;
+}
+
+.list .left_choose .menu li {
+  border-top: none;
+}
+
+.list .left_choose .menu li:nth-child(1) {
+  background-color: #2c4832;
+  color: #eaf0ed;
+}
+
+.list .left_choose .menu li:nth-child(2) {
+  background-color: #eaf0ed;
+}
+
+.list .right_items {
+  max-width: 620px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 2;
+  font-size: 0;
+}
+
+.list .right_items .card {
+  padding: 0 10px;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.list .right_items .card img {
+  width: 100%;
+  height: 315px;
+}
+
+.list .right_items .card .button {
+  color: #3f5d45;
+  font-weight: 600;
+}
+
+.list .right_items .info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #3f5d45;
+}
+
+.list .right_items .info .name {
+  border: 1px solid #eaf0ed;
+  font-size: 18px;
+  padding: 14px 33px;
+  flex: 1;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.list .right_items .info .price {
+  border: 1px solid #eaf0ed;
+  font-size: 20px;
+  padding: 14px 20px;
+  flex: 1;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.list .right_items .button {
+  font-size: 22px;
+  background-color: #eaf0ed;
+  padding: 16px 90px;
+  letter-spacing: -1px;
+}
+
+.page {
+  font-size: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 30px;
+  max-width: 940px;
+}
+
+.page span {
+  border: 1px solid #eaf0ed;
+  padding: 16px 26px;
+  font-size: 20px;
+  color: #3f5d45;
+}
+
+.page span:nth-child(2) {
+  background-color: #3f5d45;
+  color: #eaf0ed;
+}
+
+.email {
+  width: 100%;
+  max-height: 116px;
+  margin-top: 60px;
+  background-color: #3f5d45;
+}
+
+.email .content {
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.email .content .book {
+  display: flex;
+  align-items: center;
+}
+
+.email .book .logo {
+  width: 40px;
+  height: 40px;
+}
+
+.email .book span {
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: 20px;
+  color: #eaf0ed;
+}
+
+.email .emailBox {
+  width: 380px;
+  height: 56px;
+  background-color: #eaf0ed;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+.email .emailBox .icon {
+  font-size: 24px;
+  padding: 16px 20px;
+  color: #3f5d45;
+}
+
+.email .emailBox .arrow {
+  font-size: 16px;
+  padding: 20px 24px;
+  background-color: #ffe180;
+}
+
+footer {
+  width: 100%;
+  height: 341px;
+  background-color: #eaf0ed;
+}
+
+footer .infor {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+footer .infor .left {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .infor .left .text {
+  font-size: 30px;
+}
+
+footer .infor .left .address {
+  margin-top: 115.5px;
+  display: flex;
+  flex-direction: column;
+  color: #3f5d45;
+}
+
+footer .infor .slogan span {
+  writing-mode: vertical-lr;
+  font-size: 24px;
+  color: #3f5d45;
+}
+
+footer .bottom {
+  margin: 0 auto;
+  align-items: center;
+  max-width: 100%;
+  background-color: #eaf0ed;
+}
+
+footer .bottom .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+footer .bottom .social {
+  display: flex;
+}
+
+footer .bottom .social .icIcon,
+footer .bottom .social .fbIcon {
+  display: flex;
+  width: 32px;
+  height: 32px;
+}
+
+footer .bottom .fbIcon {
+  margin-left: 10px;
+}
+
+footer .bottom .copyright {
+  color: #3f5d45;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+  }
+
+  .navBar {
+    max-width: 600px;
+  }
+
+  .navBar .responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .navBar .responsive .textLogo {
+    width: 100px;
+  }
+
+  .navBar .logo,
+  .navBar .right {
+    display: none;
+  }
+
+  .jumbotron {
+    width: 100%;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .list .left_choose {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .list .right_items {
+    max-width: 100%;
+    margin: 10px auto;
+    justify-content: space-between;
+  }
+
+  .list .right_items .card {
+    width: 50%;
+  }
+
+  .page {
+    padding-right: 10px;
+  }
+
+  .email {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .email .content {
+    padding: 30px 40px;
+  }
+
+  .email .content .emailBox {
+    margin-left: 15px;
+  }
+
+  footer .infor {
+    padding: 0 40px;
+  }
+
+  footer .bottom {
+    padding: 5px 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navBar {
+    max-width: 350px;
+  }
+
+  .list .right_items .card {
+    width: 100%;
+  }
+
+  .email {
+    min-height: 186px;
+  }
+
+  .email .content {
+    flex-direction: column;
+  }
+
+  .email .content .emailBox {
+    width: 315px;
+    height: 56px;
+    margin-top: 33px;
+  }
+
+  footer .infor .slogan span {
+    display: none;
+  }
+
+  footer .infor .left .text {
+    width: 171.22px;
+    padding: 38px 0;
+  }
+
+  footer .infor .left .address {
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  footer .bottom .wrap {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  footer .bottom .copyright {
+    margin-top: 23px;
+    font-size: 16px;
+  }
+}
